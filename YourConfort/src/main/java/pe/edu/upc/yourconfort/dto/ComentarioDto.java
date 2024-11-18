@@ -18,7 +18,7 @@ import java.time.LocalDate;
 @Getter
 @Setter
 public class ComentarioDto {
-    private Long id_Comentario;
+    private Long id;
     private String contenido;
     private int calificacion;
     private LocalDate fecha;
